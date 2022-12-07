@@ -13,6 +13,7 @@ function App() {
     <BrowserRouter>
         <Tabs>
           <Tab label="Home" value="Home" to="/" component={Link} />
+          <Tab label="Play" value="Play" to="/bonus" component={Link} />
       </Tabs>
      <div className="App" style={{overflowX: "hidden"}}>
   
