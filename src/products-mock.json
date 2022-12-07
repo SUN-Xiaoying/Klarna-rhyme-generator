@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Smoooth Dogg Ring",
+        "description": "This beautiful ring is the perfect accessory to any outfit. The silver band is encrusted with sparkling stones, adding a touch of glamour and sophistication to your look.",
+        "price": 420,
+        "image": "https://cached-images.bonnier.news/gcs/di-bilder-prod/media/060ee407cbe18b958146d70a6ea08d79.jpg?output-quality=80&output-format=auto&resize=1919px%3A959px&crop=1920px%3A960px%3Bcenter%2Ccenter",
+        "tag": "rings"
+    },
+    {
+        "title": "Lipstick x Lady Gaga",
+        "description": "Introducing our latest lipstick, perfect for any occasion! Our creamy formula glides on smooth and provides long-lasting color while keeping your lips hydrated.",
+        "price": 29,
+        "image": "https://www.klarna.com/assets/sites/15/2020/02/14152140/GetWhatYouLove_Gaga_FBtopbanner_1280x720.jpg",
+        "tag": "lipsticks"
+    },
+    {
+        "title": "Robe x A$AP Rocky",
+        "description": "This luxurious bathrobe is the perfect addition to your bathroom. Made from ultra-soft, absorbent cotton terry cloth, this robe will keep you warm and cozy after a relaxing shower or bath.",
+        "price": 709,
+        "image": "https://pbs.twimg.com/media/E-yq6VkX0Ac1tx4.jpg",
+        "tag": "robes"
+    },
+    {
+        "title": "Bike",
+        "description": "Introducing the Bianchi, a premium bicycle for those who demand performance and style. ",
+        "price": 709,
+        "image": "https://cdn.road.cc/sites/default/files/styles/main_width/public/bianchi-oltre-xr4-disc.jpg",
+        "tag": "bicycles"
+    },
+    {
+        "title": "Shoes",
+        "description": "Introducing our new line of shoes, designed for comfort and style. Our shoes feature a lightweight construction that won't weigh you down, with breathable materials to keep your feet cool. ",
+        "price": 709,
+        "image": "https://images.vans.com/is/image/Vans/VN000D3HY28-HERO?hei=1024&wid=1024&qlt=95",
+        "tag": "shoes"
+    }
+]

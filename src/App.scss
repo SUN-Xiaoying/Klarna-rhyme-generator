@@ -1,0 +1,269 @@
+.App {
+  text-align: center;
+  background-color: #ffc0cb;
+  height: 95vh;
+  font-family: "Segoe UI";
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #ffc0cb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.button {
+  background-color: #ffc0cb; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+// Present loading spinner
+.present-spinner {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+.present-spinner-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 1em;
+}
+
+.present-spinner-text {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+
+// Christmas Lights below
+
+$green: #24D024;
+$yellow: #fff952;
+$pink: #f53896;
+$red: #fb4545;
+$blue: #0A53DE;
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+.light {
+    margin-bottom: 3em;
+}
+
+.drop {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    border-radius: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px #FFF
+}
+
+.animate {
+    animation: falling 5.5s infinite ease-in;
+}
+
+@keyframes falling {
+    0% {
+        top: -10px;
+        // opacity: 1;
+    }
+    10% {
+        transform: translateX(-5px)
+    }
+    20% {
+        transform: translateX(5px)
+    }
+    30% {
+        transform: translateX(-5px)
+    }
+    40% {
+        transform: translateX(5px)
+    }
+    60% {
+        transform: translateX(-5px)
+    }
+    70% {
+        transform: translateX(5px)
+    }
+    80% {
+        transform: translateX(-5px)
+    }
+    90% {
+        transform: translateX(5px)
+    }
+    95% {
+        opacity: 1
+    }
+    100% {
+        top: 95vh;
+        opacity: 0;
+    }
+}
+
+.line{
+  text-align: center;
+}
+
+.line li {
+    position: relative;
+    margin: 0 15px;
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    width: 12px;
+    height: 28px;
+    border-radius: 50%;
+    top: 35px;
+    background: #fff;
+    &:before {
+        content: "";
+        position: absolute;
+        background: #222;
+        width: 10px;
+        height: 9px;
+        border-radius: 3px;
+        top: -4px;
+        left: 1px;
+    }
+    &:after {
+        content: "";
+        top: -14px;
+        left: 9px;
+        position: absolute;
+        width: 52px;
+        height: 19px;
+        border-bottom: solid #222 2px;
+        border-radius: 30%;
+    }
+}
+
+.line .red {
+    background-color: $red;
+    animation: lightningRed 1s infinite;
+}
+
+.line .green {
+    background-color: $green;
+    animation: lightningGreen 1.5s infinite;
+}
+
+.line .yellow {
+    background-color: $yellow;
+    animation: lightningYellow 2s infinite;
+}
+
+.line .blue {
+    background-color: $blue;
+    animation: lightningBlue 2.5s infinite;
+}
+
+.line .pink {
+    background-color: $pink;
+    animation: lightningPink 2s infinite;
+}
+
+@keyframes lightningRed {
+    0% {
+        box-shadow: 5px 10px 35px 10px $red;
+    }
+    50% {
+        box-shadow: none;
+    }
+    100% {
+        box-shadow: 5px 10px 35px 10px $red;
+    }
+}
+
+@keyframes lightningGreen {
+    0% {
+        box-shadow: 5px 0 35px 10px $green;
+    }
+    50% {
+        box-shadow: none;
+    }
+    100% {
+        box-shadow: 5px 0 35px 10px $green;
+    }
+}
+
+@keyframes lightningYellow {
+    0% {
+        box-shadow: 5px 0 35px 10px $yellow;
+    }
+    50% {
+        box-shadow: none;
+    }
+    100% {
+        box-shadow: 5px 0 35px 10px $yellow;
+    }
+}
+
+@keyframes lightningBlue {
+    0% {
+        box-shadow: 5px 0 35px 10px $blue;
+    }
+    50% {
+        box-shadow: none;
+    }
+    100% {
+        box-shadow: 5px 0 35px 10px $blue;
+    }
+}
+
+@keyframes lightningPink {
+    0% {
+        box-shadow: 5px 0 35px 10px $pink;
+    }
+    50% {
+        box-shadow: none;
+    }
+    100% {
+        box-shadow: 5px 0 35px 10px $pink;
+    }
+}
+
+@media (max-width: 1024px) {
+  .line{
+    padding: 0;
+  }
+    li {
+        margin: 0 15px 20px 15px;
+    }
+}
