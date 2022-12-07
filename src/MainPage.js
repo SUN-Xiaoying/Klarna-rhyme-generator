@@ -1,5 +1,5 @@
 
-import './App.scss';
+import './App.css';
 
 import React, { useEffect, useState } from 'react';
 import Stack from '@mui/material/Stack';

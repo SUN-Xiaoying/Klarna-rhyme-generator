@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.scss';
+import './App.css';
 
 import React from 'react';
 import List from '@mui/material/List';
