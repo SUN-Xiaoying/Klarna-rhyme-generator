@@ -10,7 +10,6 @@ import { styled } from '@mui/material/styles';
 import { pink } from '@mui/material/colors';
 import { getResponse } from './open-gpt-api';
 import Typography from '@mui/material/Typography';
-import Lights from './Lights'
 import presentsSpinner from './present_loading.gif'
 import { TextField } from '@mui/material';
 
@@ -51,7 +50,6 @@ export function ExtraPage(){
 
     return (
       <React.Fragment>
-        <Lights />
         <img src="/images/logo.png" alt='klarna-logo' className="rounded mx-auto d-block" style={{ height: 150, marginTop : 30, marginBottom:30 }}/>
         
         <Box sx={{ display: "flex", flexDirection: "column", alignItems: "center"}}>

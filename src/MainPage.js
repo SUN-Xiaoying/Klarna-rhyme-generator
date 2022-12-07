@@ -16,7 +16,6 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { useLocation, useNavigate } from 'react-router-dom';
-import Lights from './Lights'
 import presentsSpinner from './present_loading.gif'
 
 
@@ -67,7 +66,6 @@ export function MainPage(){
 
     return (
       <React.Fragment>
-        <Lights />
         <img src="/images/logo.png" alt='klarna-logo' className="rounded mx-auto d-block" style={{ height: 150, marginTop : 30, marginBottom:30 }}/>
         <Box
             sx={{
