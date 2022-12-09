@@ -1,7 +1,7 @@
 import { Configuration, OpenAIApi } from "openai";
 
 const configuration = new Configuration({
-  apiKey: "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",
+  apiKey: "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",
 });
 
 const openai = new OpenAIApi(configuration);
@@ -10,10 +10,7 @@ export const getResponse = async (prompt) => {
     model: "text-davinci-003",
     prompt: prompt,
     temperature: 0.6,
-    max_tokens: 150,
-    top_p: 1,
-    frequency_penalty: 1,
-    presence_penalty: 1
+    max_tokens: 150
   });
   return response.data.choices[0];
 };

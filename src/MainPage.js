@@ -102,9 +102,9 @@ export function MainPage(){
                 
                 {loading ?
                 (
-                  <div class="present-spinner-box">
+                  <div className="present-spinner-box">
                     <Typography variant="body1" color="white">Generating rhyme..</Typography>
-                    <img class="present-spinner" src={presentsSpinner} alt="Present Loading" />
+                    <img className="present-spinner" src={presentsSpinner} alt="Present Loading" />
                   </div>
                 )
                 :
